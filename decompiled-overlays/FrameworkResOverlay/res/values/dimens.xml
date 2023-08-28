@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="dimen" name="config_screenBrightnessSettingDefaultFloat">-2.0</item>
+    <item type="dimen" name="config_screenBrightnessSettingMaximumFloat">-2.0</item>
+    <item type="dimen" name="config_screenBrightnessSettingMinimumFloat">-2.0</item>
+</resources>

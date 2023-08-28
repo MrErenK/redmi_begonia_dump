@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <public type="bool" name="config_automatic_brightness_usetouch" id="0x7f010000" />
+    <public type="bool" name="config_brightness_useacc" id="0x7f010001" />
+    <public type="bool" name="config_brightness_useprox" id="0x7f010002" />
+    <public type="bool" name="config_nightLightAdjSupported" id="0x7f010003" />
+    <public type="integer" name="config_auto_brightness_rates_slow" id="0x7f020000" />
+    <public type="integer" name="config_auto_brightness_touch_event_debounce" id="0x7f020001" />
+    <public type="integer" name="config_autobrightness_dark_brightness" id="0x7f020002" />
+    <public type="integer" name="config_autobrightness_dark_rate" id="0x7f020003" />
+    <public type="integer" name="config_automatic_brightness_touchbottom" id="0x7f020004" />
+    <public type="integer" name="config_automatic_brightness_touchleft" id="0x7f020005" />
+    <public type="integer" name="config_automatic_brightness_touchright" id="0x7f020006" />
+    <public type="integer" name="config_automatic_brightness_touchtop" id="0x7f020007" />
+    <public type="integer" name="config_backlightBit" id="0x7f020008" />
+    <public type="integer" name="config_brightness_brightening_rate" id="0x7f020009" />
+    <public type="integer" name="config_brightness_darken_threshold" id="0x7f02000a" />
+    <public type="integer" name="config_brightness_skipdebounce" id="0x7f02000b" />
+    <public type="integer" name="config_nightLightBrightnessDefault" id="0x7f02000c" />
+    <public type="integer" name="config_nightLightBrightnessMaximum" id="0x7f02000d" />
+    <public type="integer" name="config_nightLightBrightnessMinimum" id="0x7f02000e" />
+    <public type="integer" name="config_nightLightColorDefault" id="0x7f02000f" />
+    <public type="integer" name="config_nightLightColorMaximum" id="0x7f020010" />
+    <public type="integer" name="config_nightLightColorMinimum" id="0x7f020011" />
+    <public type="integer" name="config_slow_ratio" id="0x7f020012" />
+    <public type="string" name="double_click_power_key" id="0x7f030000" />
+    <public type="string" name="long_press_home_key" id="0x7f030001" />
+</resources>

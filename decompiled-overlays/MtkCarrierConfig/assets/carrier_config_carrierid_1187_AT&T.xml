@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<carrier_config>
+    <boolean name="allow_hold_call_during_emergency_bool" value="false"/>
+    <boolean name="allow_merging_rtt_calls_bool" value="true"/>
+    <boolean name="carrier_default_wfc_ims_roaming_enabled_bool" value="true" />
+    <boolean name="carrier_supports_ss_over_ut_bool" value="true"/>
+    <boolean name="carrier_name_override_bool" value="true"/>
+    <boolean name="csp_enabled_bool" value="true"/>
+    <boolean name="display_hd_audio_property_bool" value="false"/>
+    <boolean name="enableSMSDeliveryReports" value="false"/>
+    <boolean name="rtt_supported_bool" value="true"/>
+    <boolean name="show_4g_for_3g_data_icon_bool" value="true"/>
+    <boolean name="support_pause_ims_video_calls_bool" value="false"/>
+    <boolean name="support_video_conference_call_bool" value="true" />
+    <int name="maxImageHeight" value="1944"/>
+    <int name="maxImageWidth" value="2592"/>
+    <int name="maxMessageSize" value="1048576"/>
+    <int name="recipientLimit" value="10"/>
+    <int name="volte_replacement_rat_int" value="3"/>
+    <int name="ims_dtmf_tone_delay_int" value="120"/>
+    <string name="carrier_name_string">AT&amp;T</string>
+    <boolean name="mtk_vt_over_wifi_check_data_enable_bool" value="true" />
+    <boolean name="mtk_vt_over_wifi_check_wfc_enable_bool" value="false" />
+    <!-- Supplementary Service WWOP Config -->
+    <boolean name="mtk_carrier_ss_gsm_ut_support" value="true" />
+    <boolean name="mtk_carrier_ss_tb_clir" value="true" />
+    <boolean name="mtk_carrier_ss_ims_nw_cw" value="true" />
+    <boolean name="mtk_carrier_ss_support_save_cf_number" value="true" />
+    <string-array name="carrier_data_call_retry_config_strings" num="3">
+        <item value="default:default_randomization=2000,10000,18000:5000,720000:5000,2160000:5000"/>
+        <item value="mms:default_randomization=2000,10000,18000:5000,720000:5000,2160000:5000"/>
+        <item value="others:max_retries=3,5000,5000,5000"/>
+    </string-array>
+    <string-array name="non_roaming_operator_string_array" num="7">
+        <item value="310"/>
+        <item value="311"/>
+        <item value="312"/>
+        <item value="313"/>
+        <item value="314"/>
+        <item value="315"/>
+        <item value="316"/>
+    </string-array>
+    <string-array name="roaming_operator_string_array" num="5">
+        <item value="310110"/>
+        <item value="310140"/>
+        <item value="310400"/>
+        <item value="310470"/>
+        <item value="311170"/>
+    </string-array>
+    <boolean name="skip_cf_fail_to_disable_dialog_bool" value="true"/>
+    <string-array name="carrier_wlan_disallowed_apn_types_string_array" num="1">
+        <item value="default"/>
+    </string-array>
+    <string-array name="ims_reasoninfo_mapping_string_array" num="2">
+        <item value="352|emergency calls over wifi not allowed in this location|1622"/>
+        <item value="332|service not allowed in this location|1623"/>
+    </string-array>
+    <!-- Dont's show roaming icon -->
+    <boolean name="mtk_key_carrier_need_show_roaming_icon" value="false" />
+    <string-array name="mmi_two_digit_number_pattern_string_array" num="22">
+        <item value="0"/>
+        <item value="00"/>
+        <item value="*0"/>
+        <item value="*1"/>
+        <item value="*2"/>
+        <item value="*3"/>
+        <item value="*4"/>
+        <item value="*5"/>
+        <item value="*6"/>
+        <item value="*7"/>
+        <item value="*8"/>
+        <item value="*9"/>
+        <item value="#0"/>
+        <item value="#1"/>
+        <item value="#2"/>
+        <item value="#3"/>
+        <item value="#4"/>
+        <item value="#5"/>
+        <item value="#6"/>
+        <item value="#7"/>
+        <item value="#8"/>
+        <item value="#9"/>
+    </string-array>
+    <string name="5g_icon_display_grace_period_string" value="connected_mmwave,any,30"/>
+    <string name="unmetered_nr_nsa_mmwave_bool" value="true" />
+    <boolean name="ignore_rtt_mode_setting_bool" value="true"/>
+    <int name="mtk_timer_for_decline_upgrade_int" value="12" />
+    <!-- International roaming list -->
+    <string-array name="carrier_international_roaming_exception_list_strings" num="5">
+        <item value="310110" />
+        <item value="310140" />
+        <item value="310400" />
+        <item value="310470" />
+        <item value="311170" />
+    </string-array>
+    <boolean name="rtt_supported_for_vt_bool" value="false"/>
+    <boolean name="rtt_upgrade_supported_bool" value="true"/>
+    <boolean name="rtt_downgrade_supported_bool" value="true"/>
+    <boolean name="mtk_rtt_video_switch_supported_bool" value="true"/>
+    <boolean name="mtk_rtt_auto_accept_request_bool" value="true"/>
+    <boolean name="mtk_multi_rtt_calls_supported_bool" value="true"/>
+    <boolean name="mtk_rtt_audio_indication_supported_bool" value="true"/>
+    <boolean name="carrier_volte_tty_supported_bool" value="false"/>
+    <boolean name="mtk_domestic_roaming_enabled_only_by_mobile_data_setting" value="true" />
+    <boolean name="mtk_intl_roaming_enabled_only_by_roaming_data_setting" value="true" />
+    <string-array name="carrier_metered_apn_types_strings" num="3">
+        <item value="default" />
+        <item value="dun" />
+        <item value="supl" />
+    </string-array>
+    <string-array name="carrier_metered_roaming_apn_types_strings" num="3">
+        <item value="default" />
+        <item value="dun" />
+        <item value="supl" />
+    </string-array>
+    <int name="carrier_default_wfc_ims_mode_int" value="1" />
+    <boolean name="mtk_wfc_remove_preference_mode_bool" value="true" />
+</carrier_config>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="double_click_power_key">mi_pay</string>
+    <string name="long_press_home_key">launch_google_search</string>
+</resources>

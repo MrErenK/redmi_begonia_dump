@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <bool name="config_automatic_brightness_usetouch">false</bool>
+    <bool name="config_brightness_useacc">false</bool>
+    <bool name="config_brightness_useprox">true</bool>
+    <bool name="config_nightLightAdjSupported">false</bool>
+</resources>

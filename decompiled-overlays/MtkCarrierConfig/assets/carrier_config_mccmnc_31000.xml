@@ -1,0 +1,20 @@
+<carrier_config_list>
+    <carrier_config>
+         <boolean name="mtk_key_roaming_bar_guard_bool" value="true"/>
+         <boolean name="ignore_rtt_mode_setting_bool" value="true"/>
+         <string name="carrier_name_string">Sprint</string>
+         <int name="cdma_3waycall_flash_delay_int" value="300" />
+         <boolean name="mtk_unique_settings_for_domestic_and_intl_roaming" value="true" />
+         <boolean name="rtt_supported_bool" value="true"/>
+         <boolean name="rtt_supported_for_vt_bool" value="false"/>
+         <boolean name="rtt_upgrade_supported_bool" value="true"/>
+         <boolean name="rtt_downgrade_supported_bool" value="true"/>
+         <boolean name="mtk_rtt_video_switch_supported_bool" value="true"/>
+         <boolean name="mtk_rtt_auto_accept_request_bool" value="true"/>
+         <boolean name="mtk_multi_rtt_calls_supported_bool" value="true"/>
+         <boolean name="carrier_volte_tty_supported_bool" value="false"/>
+        <string-array name="read_only_apn_types_string_array" num="0" />
+    </carrier_config>
+</carrier_config_list>
+
+

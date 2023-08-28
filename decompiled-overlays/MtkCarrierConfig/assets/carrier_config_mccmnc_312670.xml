@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<carrier_config_list>
+    <carrier_config>
+        <boolean name="ignore_rtt_mode_setting_bool" value="true"/>
+        <boolean name="rtt_supported_bool" value="true"/>
+        <boolean name="allow_merging_rtt_calls_bool" value="true"/>
+        <boolean name="rtt_supported_for_vt_bool" value="false"/>
+        <boolean name="rtt_upgrade_supported_bool" value="true"/>
+        <boolean name="rtt_downgrade_supported_bool" value="true"/>
+        <boolean name="mtk_rtt_video_switch_supported_bool" value="true"/>
+        <boolean name="mtk_rtt_auto_accept_request_bool" value="true"/>
+        <boolean name="mtk_multi_rtt_calls_supported_bool" value="true"/>
+        <boolean name="mtk_rtt_audio_indication_supported_bool" value="true"/>
+        <boolean name="mtk_domestic_roaming_enabled_only_by_mobile_data_setting" value="true" />
+        <boolean name="mtk_intl_roaming_enabled_only_by_roaming_data_setting" value="true" />
+    </carrier_config>
+</carrier_config_list>

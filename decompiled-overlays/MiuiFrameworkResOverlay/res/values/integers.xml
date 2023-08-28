@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="config_auto_brightness_rates_slow">8</integer>
+    <integer name="config_auto_brightness_touch_event_debounce">1</integer>
+    <integer name="config_autobrightness_dark_brightness">98</integer>
+    <integer name="config_autobrightness_dark_rate">20</integer>
+    <integer name="config_automatic_brightness_touchbottom">250</integer>
+    <integer name="config_automatic_brightness_touchleft">150</integer>
+    <integer name="config_automatic_brightness_touchright">300</integer>
+    <integer name="config_automatic_brightness_touchtop">70</integer>
+    <integer name="config_backlightBit">11</integer>
+    <integer name="config_brightness_brightening_rate">450</integer>
+    <integer name="config_brightness_darken_threshold">240</integer>
+    <integer name="config_brightness_skipdebounce">8000</integer>
+    <integer name="config_nightLightBrightnessDefault">6</integer>
+    <integer name="config_nightLightBrightnessMaximum">11</integer>
+    <integer name="config_nightLightBrightnessMinimum">5</integer>
+    <integer name="config_nightLightColorDefault">70</integer>
+    <integer name="config_nightLightColorMaximum">88</integer>
+    <integer name="config_nightLightColorMinimum">62</integer>
+    <integer name="config_slow_ratio">12</integer>
+</resources>

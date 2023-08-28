@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<carrier_config_list>
+    <carrier_config>
+        <!-- Supplementary Service WWOP Config -->
+        <boolean name="mtk_carrier_ss_gsm_ut_support" value="true" />
+        <boolean name="mtk_carrier_ss_not_support_call_identity" value="true" />
+        <!-- M: InCallUI ViLTE features begin. @{ -->
+        <boolean name="mtk_allow_cancel_video_upgrade_bool" value="true" />
+        <boolean name="mtk_allow_auto_start_timer_for_cancel_upgrade_bool" value="true" />
+        <int name="mtk_timer_for_cancel_upgrade_int" value="30" />
+        <boolean name="no_sip_message_on_pause_video_bool" value="true" />
+        <!-- M: InCallUI ViLTE features end. @} -->
+        <!-- M: Single video call mode -->
+        <boolean name="mtk_allow_one_video_call_only_bool" value="true" />
+        <boolean name="allow_hold_video_call_bool" value="false" />
+        <boolean name="allow_add_call_during_video_call" value="false" />
+    </carrier_config>
+</carrier_config_list>

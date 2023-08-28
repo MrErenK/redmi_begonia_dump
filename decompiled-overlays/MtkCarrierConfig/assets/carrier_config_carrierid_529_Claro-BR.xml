@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<carrier_config>
+    <boolean name="show_4g_for_lte_data_icon_bool" value="true"/>
+    <string-array name="carrier_certificate_string_array" num="1">
+      <item value="7D7226772D4F6D778FEF53A36BE15AD78D8D9D4BC4CE00C5F2E3216C19480FA0"/>
+    </string-array>
+    <int name="carrier_default_wfc_ims_mode_int" value="1" />
+</carrier_config>

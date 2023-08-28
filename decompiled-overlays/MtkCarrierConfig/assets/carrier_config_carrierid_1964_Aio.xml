@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<carrier_config>
+    <boolean name="allow_hold_call_during_emergency_bool" value="false"/>
+    <boolean name="carrier_default_wfc_ims_roaming_enabled_bool" value="true" />
+    <boolean name="carrier_supports_ss_over_ut_bool" value="true"/>
+    <boolean name="enableSMSDeliveryReports" value="false"/>
+    <boolean name="csp_enabled_bool" value="true"/>
+    <int name="maxImageHeight" value="1944"/>
+    <int name="maxMessageSize" value="1048576"/>
+    <int name="maxImageWidth" value="2592"/>
+    <string name="carrier_name_string">cricket</string>
+    <string-array name="roaming_operator_string_array" num="5">
+        <item value="310110"/>
+        <item value="310140"/>
+        <item value="310400"/>
+        <item value="310470"/>
+        <item value="311170"/>
+    </string-array>
+    <string-array name="non_roaming_operator_string_array" num="7">
+        <item value="310"/>
+        <item value="311"/>
+        <item value="312"/>
+        <item value="313"/>
+        <item value="314"/>
+        <item value="315"/>
+        <item value="316"/>
+    </string-array>
+    <boolean name="ignore_rtt_mode_setting_bool" value="true"/>
+    <!-- Supplementary Service WWOP Config -->
+    <boolean name="mtk_carrier_ss_gsm_ut_support" value="true" />
+    <boolean name="mtk_carrier_ss_tb_clir" value="true" />
+    <boolean name="mtk_carrier_ss_ims_nw_cw" value="true" />
+    <boolean name="mtk_carrier_ss_support_save_cf_number" value="true" />
+    <boolean name="rtt_supported_bool" value="true"/>
+    <boolean name="allow_merging_rtt_calls_bool" value="true"/>
+    <boolean name="rtt_supported_for_vt_bool" value="false"/>
+    <boolean name="rtt_upgrade_supported_bool" value="true"/>
+    <boolean name="rtt_downgrade_supported_bool" value="true"/>
+    <boolean name="mtk_rtt_video_switch_supported_bool" value="true"/>
+    <boolean name="mtk_rtt_auto_accept_request_bool" value="true"/>
+    <boolean name="mtk_multi_rtt_calls_supported_bool" value="true"/>
+    <boolean name="mtk_rtt_audio_indication_supported_bool" value="true"/>
+</carrier_config>

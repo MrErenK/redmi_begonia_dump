@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?><manifest xmlns:android="http://schemas.android.com/apk/res/android" android:compileSdkVersion="30" android:compileSdkVersionCodename="" package="com.android.carrierconfig" platformBuildVersionCode="30" platformBuildVersionName="11">
+    <uses-permission android:name=""/>
+    <application android:allowBackup="false" android:directBootAware="true" android:extractNativeLibs="false" android:usesNonSdkApi="true">
+        <service android:name="" android:permission="">
+            <intent-filter>
+                <action android:name=""/>
+            </intent-filter>
+        </service>
+    </application>
+</manifest>
